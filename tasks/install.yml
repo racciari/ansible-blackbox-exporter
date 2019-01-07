@@ -52,3 +52,4 @@
     path: '/usr/local/bin/blackbox_exporter'
     capability: cap_net_raw+ep
     state: present
+  ignore_errors: "{{ ansible_check_mode }}"
